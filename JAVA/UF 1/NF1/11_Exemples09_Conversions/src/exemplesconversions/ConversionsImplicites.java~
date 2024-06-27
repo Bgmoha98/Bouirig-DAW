@@ -1,0 +1,49 @@
+package exemplesconversions;
+
+public class ConversionsImplicites {
+
+/*
+Les conversions entre tipus numèrics sense modificació del valor, les fa automàtica
+la màquina virtual de Java. 
+Aquestes conversions s'anomenen IMPLÍCITES.
+
+ BYTE  --> SHORT, INT, LONG, FLOAT, DOUBLE
+ 
+ SHORT --> INT, LONG, FLOAT, DOUBLE			
+     
+ INT   --> LONG, FLOAT, DOUBLE 
+ 
+ LONG  --> FLOAT, DOUBLE 
+ 
+ FLOAT --> DOUBLE
+  
+*/
+    public static void main(String[] args) {
+        byte b = 23;
+        short s=4533;
+        int i=-987;
+        long l=999999;
+        float f;
+        double d;
+        
+
+        d = b; //el valor de b està en byte,  es converteix a double i es guarda en d com a double
+        
+        d = 345L; //el 345L es  converteix a double i es guarda en d com a double
+        
+        d=(3+8.2)*5f; /*(3+8.2) el 3 és un int, es converteix a double i es fa la suma de dos doubles
+        	       11.2*5f el 5f és un float, es converteix a double i es fa la multiplicació de dos doubles
+        */
+        
+        s=b;
+        i=s;
+        l=i;
+        f=l;
+        d=f;
+        i='a';
+        s='\u0238';
+        System.out.println("i="+i);
+
+    }
+
+}

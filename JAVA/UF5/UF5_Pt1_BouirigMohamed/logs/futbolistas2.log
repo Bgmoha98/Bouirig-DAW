@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-19T18:40:30</date>
+  <millis>1684514430375</millis>
+  <sequence>3</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>WARNING</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>desconvocar</method>
+  <thread>1</thread>
+  <message>
+-  Justin( numero 20, Defensa)  S'ha desconvocat correctament</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-19T18:42:40</date>
+  <millis>1684514560729</millis>
+  <sequence>0</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>INFO</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>convocar</method>
+  <thread>1</thread>
+  <message>
+-  Justin( numero 20, Defensa)  S'ha convocat correctament</message>
+</record>
+<record>
+  <date>2023-05-19T18:42:40</date>
+  <millis>1684514560776</millis>
+  <sequence>1</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>INFO</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>convocar</method>
+  <thread>1</thread>
+  <message>
+-  Moha( numero 14, Medio)  S'ha convocat correctament</message>
+</record>
+<record>
+  <date>2023-05-19T18:42:40</date>
+  <millis>1684514560776</millis>
+  <sequence>2</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>INFO</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>convocar</method>
+  <thread>1</thread>
+  <message>
+-  Sergio( numero 7, Delantero)  S'ha convocat correctament</message>
+</record>
+<record>
+  <date>2023-05-19T18:42:40</date>
+  <millis>1684514560776</millis>
+  <sequence>3</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>WARNING</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>desconvocar</method>
+  <thread>1</thread>
+  <message>
+-  Justin( numero 20, Defensa)  S'ha desconvocat correctament</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-19T18:46:17</date>
+  <millis>1684514777365</millis>
+  <sequence>0</sequence>
+  <logger>uf5_pt1_bouirigmohamed.TestPartit</logger>
+  <level>INFO</level>
+  <class>uf5_pt1_bouirigmohamed.Partit</class>
+  <method>convocar</method>
+  <thread>1</thread>
+  <message>
+-  Justin( numero 20, Defensa)  S'ha convocat correctament</message>
+</record>
+</log>

@@ -1,0 +1,25 @@
+package exemplesconversions;
+
+
+public class ConversionsExplicites {
+
+        public static void main(String[] args) {
+            
+            long m=1233445656999996L;
+            double dadaDouble= 45.875;
+            int a;
+            long dadaLong;
+            
+            a=(int)m;//conversió de long a int
+            System.out.println("m= "+m);
+            System.out.println("a= "+a);
+            
+            System.out.println((int)(2.4+8.5)); //conversió de double a int
+            a=(int)dadaDouble;
+            
+            dadaLong=34 +56L+(long)(2.3 *dadaDouble);//conversió de double a long
+            
+
+        }
+
+}

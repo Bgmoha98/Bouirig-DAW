@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 2ch;
+}
+
+h2{
+    font-size: 1.2ch;
+}
+
+a{
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 1.2ch;
+}
+p {
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: justify;
+    font-size: 1ch;
+  }
+
+  @media screen and (min-width: 760px) {
+    .header { grid-area: header; }
+    .nav { grid-area: menu; }
+    .a1section1 { grid-area: a1section1; }
+    .a1section2 { grid-area: a1section2; }
+    .aside { grid-area: aside; }
+    .a2section1 { grid-area: a2section1; }
+    .a2section2 { grid-area: a2section2; }
+    .a2section3 { grid-area: a2section3; }
+    .footer { grid-area: footer; }
+  
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header '
+        'menu a1section1 a2section1 aside '
+        'menu a1section2 a2section1 aside '
+        'menu a1section2 a2section2 aside '
+        'menu a1section2 a2section3 aside '
+        'menu a1section2 a2section3 aside '
+        'menu a1section2 a2section3 aside '
+        'footer footer footer footer ';
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 3px;
+      background-color: #0D324D; 
+      padding: 5px;
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 100%;
+    }
+  
+  
+  .grid-container > div {
+    background-color: #F7CA88; /* Color secundario inspirado en Zelda: Tears of Kingdom */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width: 420px) and (max-width: 759px) {
+    .header { grid-area: header; }
+    .nav { grid-area: menu; }
+    .a1section1 { grid-area: a1section1; }
+    .a1section2 { grid-area: a1section2; }
+    .aside { grid-area: aside; }
+    .a2section1 { grid-area: a2section1; }
+    .a2section2 { grid-area: a2section2; }
+    .a2section3 { grid-area: a2section3; }
+    .footer { grid-area: footer; }
+  
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header '
+        'menu menu menu menu '
+        'a1section1 a1section1 a2section1 a2section1 '
+        'a1section2 a1section2 a2section1 a2section1 '
+        'a1section2 a1section2 a2section2 a2section2 '
+        'a1section2 a1section2 a2section3 a2section3 '
+        'aside aside aside aside '
+        'footer footer footer footer ';
+      gap: 5px;
+      background-color: #0D324D; /* Color principal de Zelda: Tears of Kingdom */
+      padding: 10px;
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 100%;
+    }
+  
+    .grid-container > div {
+      background-color: #F7CA88; /* Color secundario inspirado en Zelda: Tears of Kingdom */
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+  }
+
+  @media screen  and (max-width: 419px) {
+    .header { grid-area: header; }
+    .nav { grid-area: menu; }
+    .a1section1 { grid-area: a1section1; }
+    .a1section2 { grid-area: a1section2; }
+    .aside { grid-area: aside; }
+    .a2section1 { grid-area: a2section1; }
+    .a2section2 { grid-area: a2section2; }
+    .a2section3 { grid-area: a2section3; }
+    .footer { grid-area: footer; }
+  
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header '
+        'menu menu menu menu '
+        'a1section1 a1section1 a1section1 a1section1 '
+        'a1section2 a1section2 a1section2 a1section2 '
+        'a2section1 a2section1 a2section1 a2section1 '
+        'a2section2 a2section2 a2section2 a2section2 '
+        'a2section3 a2section3 a2section3 a2section3 '
+        'aside aside aside aside '
+        'footer footer footer footer ';
+      gap: 5px;
+      background-color: #0D324D; /* Color principal de Zelda: Tears of Kingdom */
+      padding: 10px;
+      margin-left: 2px;
+      margin-right: 2px;
+      width: 100%;
+    }
+  
+    .grid-container > div {
+      background-color: #F7CA88; /* Color secundario inspirado en Zelda: Tears of Kingdom */
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+  }

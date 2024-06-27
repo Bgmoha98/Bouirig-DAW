@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-09T19:48:54</date>
+  <millis>1683654534467</millis>
+  <sequence>1</sequence>
+  <logger>pkg51_a01b_ipexcepcions_logs.VerificadorIp</logger>
+  <level>SEVERE</level>
+  <class>pkg51_a01b_ipexcepcions_logs.VerificadorIp</class>
+  <method>stringToInt</method>
+  <thread>1</thread>
+  <message> no és un enter: For input string: "aaa"</message>
+</record>
+<record>
+  <date>2023-05-09T19:48:54</date>
+  <millis>1683654534479</millis>
+  <sequence>2</sequence>
+  <logger>pkg51_a01b_ipexcepcions_logs.VerificadorIp</logger>
+  <level>SEVERE</level>
+  <class>pkg51_a01b_ipexcepcions_logs.VerificadorIp</class>
+  <method>isIp</method>
+  <thread>1</thread>
+  <message>No te formar de ip 222.44.23</message>
+  <exception>
+    <message>pkg51_a01b_ipexcepcions_logs.IPErroniaException: 222.44.23</message>
+    <frame>
+      <class>pkg51_a01b_ipexcepcions_logs.VerificadorIp</class>
+      <method>comprovarPartsIP</method>
+      <line>52</line>
+    </frame>
+    <frame>
+      <class>pkg51_a01b_ipexcepcions_logs.VerificadorIp</class>
+      <method>isIp</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>pkg51_a01b_ipexcepcions_logs.TestVerificaIp</class>
+      <method>main</method>
+      <line>37</line>
+    </frame>
+  </exception>
+</record>
+</log>

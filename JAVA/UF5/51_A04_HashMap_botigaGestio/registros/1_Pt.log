@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-11T19:04:50</date>
+  <millis>1683824690359</millis>
+  <sequence>2</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>INFO</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>comprar</method>
+  <thread>1</thread>
+  <message>- Terraria (Re-Logic, Sandbox)
+ S'ha comprat correctament.</message>
+</record>
+<record>
+  <date>2023-05-11T19:04:50</date>
+  <millis>1683824690359</millis>
+  <sequence>3</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>WARNING</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>esborrar</method>
+  <thread>1</thread>
+  <message>S'ha esborrat correctament - Minecraft (Mojang Studios, Sandbox)
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-11T19:05:06</date>
+  <millis>1683824706457</millis>
+  <sequence>0</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>INFO</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>comprar</method>
+  <thread>1</thread>
+  <message>
+- Minecraft (Mojang Studios, Sandbox) S'ha comprat correctament.</message>
+</record>
+<record>
+  <date>2023-05-11T19:05:06</date>
+  <millis>1683824706480</millis>
+  <sequence>1</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>INFO</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>comprar</method>
+  <thread>1</thread>
+  <message>
+- Among Us (InnerSloth, Multiplayer) S'ha comprat correctament.</message>
+</record>
+<record>
+  <date>2023-05-11T19:05:06</date>
+  <millis>1683824706480</millis>
+  <sequence>2</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>INFO</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>comprar</method>
+  <thread>1</thread>
+  <message>
+- Terraria (Re-Logic, Sandbox) S'ha comprat correctament.</message>
+</record>
+<record>
+  <date>2023-05-11T19:05:06</date>
+  <millis>1683824706480</millis>
+  <sequence>3</sequence>
+  <logger>uf5_activitathashset.Botiga</logger>
+  <level>WARNING</level>
+  <class>uf5_activitathashset.Botiga</class>
+  <method>esborrar</method>
+  <thread>1</thread>
+  <message>S'ha esborrat correctament 
+- Minecraft (Mojang Studios, Sandbox)</message>
+</record>
+</log>

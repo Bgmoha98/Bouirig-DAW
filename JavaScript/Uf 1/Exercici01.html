@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola alumnos</h1>
+
+    <button onclick="mifuncion()"> Executar </button>
+
+    <script>
+        // retorna cadena de texto en ventana emergente
+        //respuesta = prompt("hello?");
+
+        // devuelve true o false al dar aceptar o cancelar en la ventana emergente
+        //myus = confirm("Estas?");
+        
+        // muestra la info en ventana
+        //alert("has dicho: " + respuesta + " " + myus);
+        
+        // muestra la info en consola
+        //console.log("has dicho: " + respuesta + " " + myus);
+        
+
+        // constante con funciones;
+
+        const mifuncion = function (){
+            let miArray = []; 
+            miArray.push(9);
+            miArray.push(7);
+            miArray.unshift(10);
+            miArray.push("Moha");
+            console.log(miArray);
+            miArray.pop();
+            console.log(miArray);
+        }
+
+        // funcion tradicional
+        function mifuncion2(){
+             let myus = confirm("Estas?");
+            console.log(myus);
+        }
+
+        // funcion JavaScrip ES5 
+        const mifuncion3 = () => {
+            let myus = confirm("Estas?");
+            console.log(myus);
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-04T19:30:44</date>
+  <millis>1683221444459</millis>
+  <sequence>0</sequence>
+  <logger>exempleLog.GestioVehicle</logger>
+  <level>INFO</level>
+  <class>exempleLog.GestioVehicle</class>
+  <method>afegir</method>
+  <thread>1</thread>
+  <message>Vehicle afegit: AAA1234</message>
+</record>
+<record>
+  <date>2023-05-04T19:30:44</date>
+  <millis>1683221444530</millis>
+  <sequence>1</sequence>
+  <logger>exempleLog.GestioVehicle</logger>
+  <level>WARNING</level>
+  <class>exempleLog.GestioVehicle</class>
+  <method>afegir</method>
+  <thread>1</thread>
+  <message>Vehicle ja existent.</message>
+</record>
+<record>
+  <date>2023-05-04T19:30:44</date>
+  <millis>1683221444545</millis>
+  <sequence>2</sequence>
+  <logger>test.VehicleTest</logger>
+  <level>WARNING</level>
+  <class>test.VehicleTest</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>--&gt;&gt;&gt;Això ja ha sortit: Vehicle ja existent.</message>
+  <exception>
+    <message>exempleLog.VehicleException: Vehicle ja existent.</message>
+    <frame>
+      <class>exempleLog.GestioVehicle</class>
+      <method>afegir</method>
+      <line>49</line>
+    </frame>
+    <frame>
+      <class>test.VehicleTest</class>
+      <method>main</method>
+      <line>60</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-04T19:37:03</date>
+  <millis>1683221823686</millis>
+  <sequence>0</sequence>
+  <logger>exempleLog.GestioVehicle</logger>
+  <level>INFO</level>
+  <class>exempleLog.GestioVehicle</class>
+  <method>afegir</method>
+  <thread>1</thread>
+  <message>Vehicle afegit: AAA1234</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-04T19:38:02</date>
+  <millis>1683221882083</millis>
+  <sequence>0</sequence>
+  <logger>exempleLog.GestioVehicle</logger>
+  <level>INFO</level>
+  <class>exempleLog.GestioVehicle</class>
+  <method>afegir</method>
+  <thread>1</thread>
+  <message>Vehicle afegit: AAA1234</message>
+</record>
+</log>
